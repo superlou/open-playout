@@ -4,6 +4,7 @@ from devices.link import Link
 
 try:
     gi.require_version('Gst', '1.0')
+    gi.require_version('GstVideo', '1.0')
 except ValueError:
     print 'Could not find required Gstreamer library'
     sys.exit(1)

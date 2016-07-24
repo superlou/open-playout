@@ -3,7 +3,7 @@ import os
 import sys
 import argparse
 import gi
-from gi.repository import GObject, GdkX11
+from gi.repository import GObject
 import shlex
 from threading import Thread
 

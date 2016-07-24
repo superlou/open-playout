@@ -23,7 +23,7 @@ import gi
 try:
     gi.require_version('Gst', '1.0')
 except ValueError:
-    print 'Could not find required Gstreamer library'
+    print('Could not find required Gstreamer library')
     sys.exit(1)
 
 from gi.repository import Gst
